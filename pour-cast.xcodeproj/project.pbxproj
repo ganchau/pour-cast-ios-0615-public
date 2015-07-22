@@ -13,8 +13,8 @@
 		AC54A0AD64CD951218E95307 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5DFA5E3767BFDDAB27D700 /* libPods-unit_tests.a */; };
 		AF2F896A020C405DB0266B43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E464B0A5CDB40B3B4639FB0 /* Images.xcassets */; };
 		BD03974C1AE03FC000115DFB /* FISDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = BD03974B1AE03FC000115DFB /* FISDailyForecast.m */; };
-		BD0397501AE0463A00115DFB /* FISDailyForecastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD03974F1AE0463A00115DFB /* FISDailyForecastView.xib */; };
-		BD0397531AE046C600115DFB /* FISDailyForecastView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0397521AE046C600115DFB /* FISDailyForecastView.m */; };
+		BD5970AD1B5FD52D005A002C /* FISDailyForecastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD5970AC1B5FD52D005A002C /* FISDailyForecastView.xib */; };
+		BD5970B01B5FE741005A002C /* FISDailyForecastView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5970AF1B5FE741005A002C /* FISDailyForecastView.m */; };
 		BDC939C01AE97C9C00DBE48F /* FISDailyForecastViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC939BF1AE97C9C00DBE48F /* FISDailyForecastViewSpec.m */; };
 		BDC939C21AE98A3600DBE48F /* FISViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC939C11AE98A3600DBE48F /* FISViewControllerSpec.m */; };
 		D8C986B71A1CED800093C217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C986B61A1CED800093C217 /* Main.storyboard */; };
@@ -50,13 +50,13 @@
 		B390047BAEC1439AAFDE28AF /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		BD03974A1AE03FC000115DFB /* FISDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISDailyForecast.h; sourceTree = "<group>"; };
 		BD03974B1AE03FC000115DFB /* FISDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDailyForecast.m; sourceTree = "<group>"; };
-		BD03974F1AE0463A00115DFB /* FISDailyForecastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FISDailyForecastView.xib; sourceTree = "<group>"; };
-		BD0397511AE046C600115DFB /* FISDailyForecastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISDailyForecastView.h; sourceTree = "<group>"; };
-		BD0397521AE046C600115DFB /* FISDailyForecastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDailyForecastView.m; sourceTree = "<group>"; };
+		BD5970AC1B5FD52D005A002C /* FISDailyForecastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FISDailyForecastView.xib; path = ../FISDailyForecastView.xib; sourceTree = "<group>"; };
+		BD5970AE1B5FE741005A002C /* FISDailyForecastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISDailyForecastView.h; path = ../FISDailyForecastView.h; sourceTree = "<group>"; };
+		BD5970AF1B5FE741005A002C /* FISDailyForecastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISDailyForecastView.m; path = ../FISDailyForecastView.m; sourceTree = "<group>"; };
 		BDC939BF1AE97C9C00DBE48F /* FISDailyForecastViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDailyForecastViewSpec.m; sourceTree = "<group>"; };
 		BDC939C11AE98A3600DBE48F /* FISViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewControllerSpec.m; sourceTree = "<group>"; };
 		D7CEF5F56BD54A13B7ECE704 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
-		D8C986B61A1CED800093C217 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		D8C986B61A1CED800093C217 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Main.storyboard; sourceTree = "<group>"; };
 		D8C986BD1A1CFB000093C217 /* FISViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISViewController.h; sourceTree = "<group>"; };
 		D8C986BE1A1CFB000093C217 /* FISViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewController.m; sourceTree = "<group>"; };
 		D8C986F21A1E48E10093C217 /* ForcastAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForcastAPIClient.h; path = ../ForcastAPIClient.h; sourceTree = "<group>"; };
@@ -106,6 +106,10 @@
 		515F21C34F194FB8A01DB0B2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BD5970AE1B5FE741005A002C /* FISDailyForecastView.h */,
+				BD5970AF1B5FE741005A002C /* FISDailyForecastView.m */,
+				BD5970AC1B5FD52D005A002C /* FISDailyForecastView.xib */,
+				D8C986B61A1CED800093C217 /* Main.storyboard */,
 				1E464B0A5CDB40B3B4639FB0 /* Images.xcassets */,
 				8BA1F0C796B74FAB8C34FA20 /* Other-Sources */,
 			);
@@ -193,7 +197,6 @@
 			children = (
 				D8C986F21A1E48E10093C217 /* ForcastAPIClient.h */,
 				D8C986F31A1E48E10093C217 /* ForcastAPIClient.m */,
-				D8C986B61A1CED800093C217 /* Main.storyboard */,
 				D8C986BD1A1CFB000093C217 /* FISViewController.h */,
 				D8C986BE1A1CFB000093C217 /* FISViewController.m */,
 				B390047BAEC1439AAFDE28AF /* FISAppDelegate.h */,
@@ -290,6 +293,7 @@
 			files = (
 				AF2F896A020C405DB0266B43 /* Images.xcassets in Resources */,
 				D8C986B71A1CED800093C217 /* Main.storyboard in Resources */,
+				BD5970AD1B5FD52D005A002C /* FISDailyForecastView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +384,7 @@
 				D8C986F41A1E48E10093C217 /* ForcastAPIClient.m in Sources */,
 				3E2E3C0B0A9049909C217755 /* FISAppDelegate.m in Sources */,
 				BD03974C1AE03FC000115DFB /* FISDailyForecast.m in Sources */,
+				BD5970B01B5FE741005A002C /* FISDailyForecastView.m in Sources */,
 				281FFDA5CB89424ABCD9EE37 /* main.m in Sources */,
 				D8C986BF1A1CFB000093C217 /* FISViewController.m in Sources */,
 			);
